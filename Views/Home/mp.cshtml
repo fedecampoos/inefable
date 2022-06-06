@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "mp";
+}
+
+
+SDK MercadoPago.js V2
+<script src="https://sdk.mercadopago.com/js/v2"></script>
+
+ SDK de Mercado Pago
+ using MercadoPago.Config;
+ Agrega credenciales
+MercadoPagoConfig.AccessToken = "PROD_ACCESS_TOKEN"";
+
+
+Crea el objeto de request de la preference
+var request = new PreferenceRequest
+{
+    Items = new List<PreferenceItemRequest>
+    {
+    new PreferenceItemRequest
+    {
+    Title = "Mi producto",
+    Quantity = 1,
+    CurrencyId = "ARS",
+    UnitPrice = 75.56m,
+    },
+    },
+    };
+
+    Crea la preferencia usando el client
+    var client = new PreferenceClient();
+    Preference preference = await client.CreateAsync(request);
+
+
+    <script>
+        // Agrega credenciales de SDK
+        const mp = new MercadoPago("PUBLIC_KEY", {
+            locale: "es-AR",
+        });
+
+        // Inicializa el checkout
+        mp.checkout({
+            preference: {
+                id: "YOUR_PREFERENCE_ID",
+            },
+            render: {
+                container: ".cho-container", // Indica el nombre de la clase donde se mostrará el botón de pago
+                label: "Pagar", // Cambia el texto del botón de pago (opcional)
+            },
+        });
+    </script>
+    
+    <script></script>

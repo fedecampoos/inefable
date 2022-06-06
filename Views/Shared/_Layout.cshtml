@@ -6,9 +6,13 @@
     <title>@ViewData["Title"] - proyectoinefrable</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
     <header class="header">
+       
+            
         <div class="container">
             <div class="btn-menu">
                 <label for="btn-menu">☰</label>
@@ -17,7 +21,22 @@
                 <h1>inefrable bb</h1>
             </div>
             <nav class="menu">
-            
+                <div class="nav_center">
+                    <div class="nav_logo">
+                        <h1> inefable <span>project</span></h1>
+                    </div>
+
+                    <ul class="nav_list">
+                        <span>
+                            <i class="bx bxs-watch"></i>
+                        </span>
+
+                        <div class="carrito_icon">
+                            <i class="bx bx-cart"> </i>
+                            <span class="item_total"> 0 </span>
+                        </div>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -28,7 +47,7 @@
         <div class="cont-menu">
             <nav>
                 <a asp-area="" asp-controller="Home" asp-action="Index">inicio</a>
-                <a asp-area="" asp-controller="Home" asp-action="Index">Servicios</a>
+                <a asp-area="" asp-controller="Cliente" asp-action="Index">Clientes</a>
                 <a asp-area="" asp-controller="Home" asp-action="Privacy">Suscribirse</a>
                 <a href="#">cargar producto</a>
                 <a href="#">mis productos</a>

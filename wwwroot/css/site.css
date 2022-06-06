@@ -34,7 +34,7 @@ body {
 
 .nav {
     
-    top: 0;
+    top: 25px;
     left: 0;
     width: 100%;
     padding: 1.5rem 0;
@@ -48,6 +48,7 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 100%;
+    position:center;
 }
 
 .nav_logo {
@@ -85,13 +86,12 @@ body {
 
 .carrito_icon span {
         position: absolute;
-        top: 13px;
+        top: -28px;
         right: -2px;
         display: flex;
         align-items:center;
         justify-content:center;
-        background-color:red;
-        padding .5rem;
+        padding:inherit;
         font-size:1.5rem;
         font-weight:700;
         border-radius:50%;
@@ -101,7 +101,6 @@ body {
 .header {
     width: 100%;
     height: 100px;
-    position: fixed;
     top: 0;
     left: 0;
 }
@@ -127,7 +126,7 @@ body {
             font-weight: 400;
             font-size: 22px;
             margin-left: 10px;
-        }
+}
 
 .container .menu {
         float: right;

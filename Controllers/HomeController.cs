@@ -27,7 +27,10 @@ namespace proyectoinefrable.Controllers
         {
             return View();
         }
-
+        public IActionResult mp()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
