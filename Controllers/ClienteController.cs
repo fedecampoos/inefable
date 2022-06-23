@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using proyectoinefrable.Models;
 
 namespace proyectoinefrable.Controllers
+
+
 {
     public class ClienteController : Controller
     {

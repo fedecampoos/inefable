@@ -96,6 +96,129 @@ body {
         font-weight:700;
         border-radius:50%;
     }
+.carrito_overlay{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    transition: all 300ms ease-in-out;
+    background-color: rgba(0, 0, 0, .7);
+    visibility:hidden;
+    z-index:2;
+}
+.carrito {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%) scale(.5);
+    width: 60%;
+    height: 80%;
+    padding: 25px;
+    border-radius: 30px;
+    overflow-x: scroll;
+    background-color: white;
+    opacity:0;
+    visibility:hidden;
+    transition: all 300ms ease-in-out;
+    display:inline-block;
+}
+.carrito.show{
+    transform: translate(-50%. -50%)
+    scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+.carrito_overlay.show{
+    visibility:visible
+}
+.carrito .close_carrito {
+    font-size: 4.5rem;
+    cursor: pointer;
+    color: black;
+    transform: initial;
+}
+.carrito .close_carrito:hover{
+    color:red;
+}
+.carrito_item span{
+    font-size: 2rem;
+    color: blue;
+}
+.carrito_item span{
+    font-size: 2rem;
+    color: blue;
+}
+.carrito h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.carrito_item{
+    display:grid;
+    align-items:center;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    width: 70%;
+    margin: 2rem auto;
+}
+.carrito_item div{
+    display:inline-flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.carrito_item span{
+    cursor:pointer;
+}
+-carrito_item h3{
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.carrito_item .price{
+    color:blue;
+    font-weight:700;
+}
+.carrito_item .remove_item{
+    cursor:pointer;
+    color:red;
+    font-size:4rem;
+}
+.carrito_footer{
+    text-align: center;
+    margin:3rem;
+}
+.carrito_footer .btn{
+    display:inline-block;
+    padding:1rem 3rem;
+    background-color:red;
+    border:none;
+    margin-top:2rem;
+}
+.carrito_footer .btn:focus{
+    outline:none;
+}
+
+@media only screen and (max-width:1350px){
+    .carrito_item{
+        width:100%;
+    }
+}
+@media only screen and (max-width:700px) {
+    .carrito{
+        width:100%;
+        height:100%;
+        border-radius:0;
+    }
+    
+    .carrito_item h3 {
+        font-size: 1.6rem;
+        margin-bottom:1rem;
+    }
+    .btn{
+        padding: .8rem 1.5rem;
+        padding:1.6rem;
+    }
+}
+
 
 /*Estilos para el encabezado*/
 .header {
