@@ -18,7 +18,7 @@
 </head>
 <body>
     <div class="registration-form">
-        <form>
+        <form asp-action="Create">
             <div class="form-icon">
                 <span><i class="icon icon-user"></i></span>
             </div>
@@ -44,11 +44,9 @@
                 <input asp-for="Fechanac" class="form-control" />
                 <span asp-validation-for="Fechanac" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <div class="form-group">
+          
                     <input type="submit" value="Create" class="btn btn-primary" />
-                </div>
-            </div>
+            
             <div>
                 <a asp-action="Index">Back to List</a>
             </div>

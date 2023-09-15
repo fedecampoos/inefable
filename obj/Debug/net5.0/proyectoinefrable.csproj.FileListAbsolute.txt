@@ -192,3 +192,9 @@ C:\Users\federico.delcampo\OneDrive - Artware srl\Documentos\GitHub\inefable\obj
 C:\Users\federico.delcampo\OneDrive - Artware srl\Documentos\GitHub\inefable\obj\Debug\net5.0\Razor\Views\Cliente\Index.cshtml.g.cs
 C:\Users\federico.delcampo\OneDrive - Artware srl\Documentos\GitHub\inefable\obj\Debug\net5.0\Razor\Views\Home\detalle.cshtml.g.cs
 C:\Users\federico.delcampo\OneDrive - Artware srl\Documentos\GitHub\inefable\bin\Debug\net5.0\MercadoPago.dll
+C:\Users\federico.delcampo\OneDrive - Artware srl\Documentos\GitHub\inefable\obj\Debug\net5.0\Razor\Views\Productoes\Create.cshtml.g.cs
+C:\Users\federico.delcampo\OneDrive - Artware srl\Documentos\GitHub\inefable\obj\Debug\net5.0\Razor\Views\Productoes\Delete.cshtml.g.cs
+C:\Users\federico.delcampo\OneDrive - Artware srl\Documentos\GitHub\inefable\obj\Debug\net5.0\Razor\Views\Productoes\Details.cshtml.g.cs
+C:\Users\federico.delcampo\OneDrive - Artware srl\Documentos\GitHub\inefable\obj\Debug\net5.0\Razor\Views\Productoes\Edit.cshtml.g.cs
+C:\Users\federico.delcampo\OneDrive - Artware srl\Documentos\GitHub\inefable\obj\Debug\net5.0\Razor\Views\Productoes\Index.cshtml.g.cs
+C:\Users\federico.delcampo\OneDrive - Artware srl\Documentos\GitHub\inefable\obj\Debug\net5.0\Razor\Views\Home\Compra.cshtml.g.cs
